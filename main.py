@@ -63,7 +63,7 @@ dataFrame = pd.DataFrame({
     'id': id,
     'username': username,
     'dibuat_pada': created_at,
-    'tweet': text
+    'text': text
 })
 
 dataFrame.to_excel('hasil-crawling.xlsx', index=False)
